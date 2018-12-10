@@ -23,6 +23,7 @@ Examples:
  | username | password |
  | ktm000 | qazwsx |
 
+#Or in a separate contact.feature file
 #Scenario: user can create new contact
 #Given user is already on Home Page
 #When user hover over contacts link

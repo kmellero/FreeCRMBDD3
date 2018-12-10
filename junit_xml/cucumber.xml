@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="49.408236">
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="11.579321">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="76.542759">
+<testcase classname="Deal data creation" name="Free CRM Create new deal scenario" time="22.173962">
+<system-out><![CDATA[Given user on Login Page....................................................passed
+When title is Free CRM......................................................passed
+Then user enters user and password..........................................passed
+Then login button click.....................................................passed
+Then user home page.........................................................passed
+Then user moves to new deal page............................................passed
+Then user enters deal details...............................................passed
+Then browser down...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="11.167178">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "ktm000" and user enters "qazwsx"..........................passed
@@ -9,7 +20,7 @@ Then user is on home page...................................................pass
 Then close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="user can create new contact" time="18.616346">
+<testcase classname="Free CRM Login Feature" name="user can create new contact" time="21.590451">
 <system-out><![CDATA[Given user "ktm000" "qazwsx" is already on Home Page........................passed
 When user hover over contacts link..........................................passed
 Then user clicks on New Contact link........................................passed
@@ -19,7 +30,7 @@ Then verify new contact "aa1" and "bb2" created.............................pass
 Then tear down..............................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="user can create new contact 2" time="19.212569">
+<testcase classname="Free CRM Login Feature" name="user can create new contact 2" time="21.611168">
 <system-out><![CDATA[Given user "ktm000" "qazwsx" is already on Home Page........................passed
 When user hover over contacts link..........................................passed
 Then user clicks on New Contact link........................................passed
