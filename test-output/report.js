@@ -156,56 +156,296 @@ formatter.match({
   "location": "DealStepDefinition.user_on_login_page()"
 });
 formatter.result({
-  "duration": 8142252029,
+  "duration": 8419038809,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.title_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 14763728,
+  "duration": 16908219,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.user_enters_user_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 214418333,
+  "duration": 206645077,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.login_button_click()"
 });
 formatter.result({
-  "duration": 7196725464,
+  "duration": 3719922542,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.user_home_page()"
 });
 formatter.result({
-  "duration": 6197892,
+  "duration": 7101498,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.user_moves_to_new_deal_page()"
 });
 formatter.result({
-  "duration": 3823813043,
+  "duration": 3526976179,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.user_enters_deal_details(DataTable)"
 });
 formatter.result({
-  "duration": 2118310419,
+  "duration": 2737274868,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepDefinition.browser_down()"
 });
 formatter.result({
-  "duration": 657480855,
+  "duration": 672629444,
+  "status": "passed"
+});
+formatter.uri("dealsmap.feature");
+formatter.feature({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#Author: your.email@your.domain.com"
+    },
+    {
+      "line": 2,
+      "value": "#Keywords Summary :"
+    },
+    {
+      "line": 3,
+      "value": "#Feature: List of scenarios."
+    },
+    {
+      "line": 4,
+      "value": "#Scenario: Business rule through list of steps with arguments."
+    },
+    {
+      "line": 5,
+      "value": "#Given: Some precondition step"
+    },
+    {
+      "line": 6,
+      "value": "#When: Some key actions"
+    },
+    {
+      "line": 7,
+      "value": "#Then: To observe outcomes or validation"
+    },
+    {
+      "line": 8,
+      "value": "#And,But: To enumerate more Given,When,Then steps"
+    },
+    {
+      "line": 9,
+      "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+    },
+    {
+      "line": 10,
+      "value": "#Examples: Container for s table"
+    },
+    {
+      "line": 11,
+      "value": "#Background: List of steps run before each of the scenarios"
+    },
+    {
+      "line": 12,
+      "value": "#\"\"\" (Doc Strings)"
+    },
+    {
+      "line": 13,
+      "value": "#| (Data Tables)"
+    },
+    {
+      "line": 14,
+      "value": "#@ (Tags/Labels):To group Scenarios"
+    },
+    {
+      "line": 15,
+      "value": "#\u003c\u003e (placeholder)"
+    },
+    {
+      "line": 16,
+      "value": "#\"\""
+    },
+    {
+      "line": 17,
+      "value": "## (Comments)"
+    },
+    {
+      "line": 18,
+      "value": "#Sample Feature Definition Template"
+    }
+  ],
+  "line": 19,
+  "name": "New Deal data",
+  "description": "",
+  "id": "new-deal-data",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "Free CRM Create new deal scenario",
+  "description": "",
+  "id": "new-deal-data;free-crm-create-new-deal-scenario",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 22,
+  "name": "login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 23,
+  "name": "title -Free CRM",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 24,
+  "name": "entering credentials",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 25
+    },
+    {
+      "cells": [
+        "ktm000",
+        "qazwsx"
+      ],
+      "line": 26
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "login button submit",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 28,
+  "name": "home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "moves to new deal page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "user and deal details",
+  "rows": [
+    {
+      "cells": [
+        "title",
+        "amount",
+        "probability",
+        "commission"
+      ],
+      "line": 31
+    },
+    {
+      "cells": [
+        "deal1",
+        "1500",
+        "30",
+        "15"
+      ],
+      "line": 32
+    },
+    {
+      "cells": [
+        "deal2",
+        "2500",
+        "60",
+        "35"
+      ],
+      "line": 33
+    },
+    {
+      "cells": [
+        "deal3",
+        "3500",
+        "70",
+        "25"
+      ],
+      "line": 34
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 35,
+  "name": "browser quit",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.login_page()"
+});
+formatter.result({
+  "duration": 7186307164,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.title_Free_CRM()"
+});
+formatter.result({
+  "duration": 14913941,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.entering_credentials(DataTable)"
+});
+formatter.result({
+  "duration": 196942852,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.login_button_submit()"
+});
+formatter.result({
+  "duration": 4274589108,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.home_page()"
+});
+formatter.result({
+  "duration": 6201624,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.moves_to_new_deal_page()"
+});
+formatter.result({
+  "duration": 3523169089,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.user_and_deal_details(DataTable)"
+});
+formatter.result({
+  "duration": 9888261138,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DealsStepWithMapDefinition.browser_quit()"
+});
+formatter.result({
+  "duration": 664705976,
   "status": "passed"
 });
 formatter.uri("login.feature");
@@ -367,14 +607,14 @@ formatter.match({
   "location": "LoginStepDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 6684196728,
+  "duration": 7238774193,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 14649903,
+  "duration": 10526527,
   "status": "passed"
 });
 formatter.match({
@@ -391,28 +631,28 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_username_and_user_enters_password(String,String)"
 });
 formatter.result({
-  "duration": 206861066,
+  "duration": 193558876,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 3599146215,
+  "duration": 3302686282,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 5168798,
+  "duration": 5641827,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 657155706,
+  "duration": 644991771,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -608,21 +848,21 @@ formatter.match({
   "location": "NewContactStepDefintion.user_is_already_on_Home_Page(String,String)"
 });
 formatter.result({
-  "duration": 11979112086,
+  "duration": 15779676736,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.user_hover_over_contacts_link()"
 });
 formatter.result({
-  "duration": 246748976,
+  "duration": 262971442,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.user_clicks_on_New_Contact_link()"
 });
 formatter.result({
-  "duration": 4391289176,
+  "duration": 4532557827,
   "status": "passed"
 });
 formatter.match({
@@ -643,14 +883,14 @@ formatter.match({
   "location": "NewContactStepDefintion.user_enters_First_and_Last_Namesit(String,String,String)"
 });
 formatter.result({
-  "duration": 425935048,
+  "duration": 408429246,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.user_clicks_on_Save_Btn()"
 });
 formatter.result({
-  "duration": 2687995887,
+  "duration": 2377265315,
   "status": "passed"
 });
 formatter.match({
@@ -667,14 +907,14 @@ formatter.match({
   "location": "NewContactStepDefintion.verify_new_contact_created(String,String)"
 });
 formatter.result({
-  "duration": 1194402770,
+  "duration": 1225166913,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.tear_down()"
 });
 formatter.result({
-  "duration": 664966748,
+  "duration": 670425708,
   "status": "passed"
 });
 formatter.scenario({
@@ -747,21 +987,21 @@ formatter.match({
   "location": "NewContactStepDefintion.user_is_already_on_Home_Page(String,String)"
 });
 formatter.result({
-  "duration": 12006926096,
+  "duration": 12185023362,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.user_hover_over_contacts_link()"
 });
 formatter.result({
-  "duration": 255614303,
+  "duration": 241093154,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.user_clicks_on_New_Contact_link()"
 });
 formatter.result({
-  "duration": 4444265154,
+  "duration": 3285306900,
   "status": "passed"
 });
 formatter.match({
@@ -782,14 +1022,14 @@ formatter.match({
   "location": "NewContactStepDefintion.user_enters_First_and_Last_Namesit(String,String,String)"
 });
 formatter.result({
-  "duration": 379839916,
+  "duration": 372104913,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.user_clicks_on_Save_Btn()"
 });
 formatter.result({
-  "duration": 2664774551,
+  "duration": 2638132385,
   "status": "passed"
 });
 formatter.match({
@@ -806,14 +1046,14 @@ formatter.match({
   "location": "NewContactStepDefintion.verify_new_contact_created(String,String)"
 });
 formatter.result({
-  "duration": 1191892078,
+  "duration": 1160700624,
   "status": "passed"
 });
 formatter.match({
   "location": "NewContactStepDefintion.tear_down()"
 });
 formatter.result({
-  "duration": 667856236,
+  "duration": 680504863,
   "status": "passed"
 });
 });
