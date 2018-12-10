@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\Users\\Hp\\eclipse-workspace\\FreeCRMBDD3\\src\\main\\java\\Feature"
+		features="C:\\Users\\Hp\\eclipse-workspace\\FreeCRMBDD3\\src\\main\\java\\Feature"   // \\.deals.feature " to run specific feature file
 		,glue= {"stepDefinition"}  //package/folder for steps
 		,plugin= {"pretty","html:test-output", "junit:junit_xml\\cucumber.xml"}   //reporting formats e.g.: , "json:json_output\\cucumber.json"
 		,monochrome= true  //display the console output: readable format				
