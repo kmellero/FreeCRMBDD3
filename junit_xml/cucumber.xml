@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="102.277126">
-<testcase classname="Deal data creation" name="Free CRM Create new deal scenario" time="19.306497">
-<system-out><![CDATA[Given user on Login Page....................................................passed
-When title is Free CRM......................................................passed
-Then user enters user and password..........................................passed
-Then login button click.....................................................passed
-Then user home page.........................................................passed
-Then user moves to new deal page............................................passed
-Then user enters deal details...............................................passed
-Then browser down...........................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="0.11841">
+<testcase classname="Free CRM application testing" name="Login with correct username and password scenario" time="0.117794">
+<system-out><![CDATA[Given This is a valid login test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="New Deal data" name="Free CRM Create new deal scenario" time="25.755091">
-<system-out><![CDATA[Given login page............................................................passed
-When title -Free CRM........................................................passed
-Then entering credentials...................................................passed
-Then login button submit....................................................passed
-Then home page..............................................................passed
-Then moves to new deal page.................................................passed
-Then user and deal details..................................................passed
-Then browser quit...........................................................passed
+<testcase classname="Free CRM application testing" name="Login with incorrect username and password scenario" time="0.00004">
+<system-out><![CDATA[Given This is a invalid login test..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="11.396179">
-<system-out><![CDATA[Given user is already on Login Page.........................................passed
-When title of login page is Free CRM........................................passed
-Then user enters "ktm000" and user enters "qazwsx"..........................passed
-Then user clicks on login button............................................passed
-Then user is on home page...................................................passed
-Then close the browser......................................................passed
+<testcase classname="Free CRM application testing" name="Create a contact scenario" time="0.00004">
+<system-out><![CDATA[Given This is a contact test................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="user can create new contact" time="25.256493">
-<system-out><![CDATA[Given user "ktm000" "qazwsx" is already on Home Page........................passed
-When user hover over contacts link..........................................passed
-Then user clicks on New Contact link........................................passed
-Then user enters "Mrs.", "aa1" and "bb2" Names..............................passed
-Then user clicks on Save Btn................................................passed
-Then verify new contact "aa1" and "bb2" created.............................passed
-Then tear down..............................................................passed
+<testcase classname="Free CRM application testing" name="Create a deal scenario" time="0.000036">
+<system-out><![CDATA[Given This is a deal test...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="user can create new contact 2" time="20.562866">
-<system-out><![CDATA[Given user "ktm000" "qazwsx" is already on Home Page........................passed
-When user hover over contacts link..........................................passed
-Then user clicks on New Contact link........................................passed
-Then user enters "Dr.", "cc1" and "dd2" Names...............................passed
-Then user clicks on Save Btn................................................passed
-Then verify new contact "cc1" and "dd2" created.............................passed
-Then tear down..............................................................passed
+<testcase classname="Free CRM application testing" name="Create a task scenario" time="0.000053">
+<system-out><![CDATA[Given This is a task test...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Create a case scenario" time="0.000045">
+<system-out><![CDATA[Given This is a case test...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Verify left panel links scenario" time="0.000059">
+<system-out><![CDATA[Given Clicking on left panel links..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a deal scenario" time="0.000056">
+<system-out><![CDATA[Given This is a search deal test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a contact scenario" time="0.000059">
+<system-out><![CDATA[Given This is a search contact test.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a call scenario" time="0.000055">
+<system-out><![CDATA[Given This is a search call test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a docs scenario" time="0.000056">
+<system-out><![CDATA[Given This is a search docs test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a form scenario" time="0.000056">
+<system-out><![CDATA[Given This is a search form test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Validate report scenario" time="0.000061">
+<system-out><![CDATA[Given This is a report test.................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
